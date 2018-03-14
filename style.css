@@ -1,0 +1,73 @@
+body {
+	background-color: #4B4E50;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: white;
+  }
+
+h1 {
+	box-sizing: content-box;
+	background-color: #1db954;
+	width: 98%;
+	padding: 20px;
+	text-align: center;	
+}
+
+h2 {
+	text-align: center;	
+}
+
+p {
+	text-align: center;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	padding-bottom: 1em;
+}
+
+.footer-content {
+  	box-sizing: content-box;
+	background-color: #1db954;
+	width: 98%;
+	padding: 20px;
+	text-align: center;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 994px;
+}
+
+.button {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	padding: 30px;
+	padding-left: 11px;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.song-embed {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.song {
+	width: 300px;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 3px solid #1db954;
+	margin-bottom: 2em;
+}	
